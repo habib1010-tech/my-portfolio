@@ -35,7 +35,7 @@ function Navbar() {
             color: theme.tertiary,
             cursor: 'pointer',
             transform: 'translateY(-10px)',
-            transition: 'color 0.3s',
+            transition: 'color 0.8s',
             '&:hover': {
                 color: theme.primary,
             },
@@ -55,8 +55,8 @@ function Navbar() {
             fontSize: ' 24px',
             background: theme.secondary,
             overflow: 'hidden',
-            borderTopRightRadius: '40px',
-            borderBottomRightRadius: '40px',
+            borderTopRightRadius: '25px',
+            borderBottomRightRadius: '25px',
             [t.breakpoints.down('sm')]: {
                 width: '12em',
             },
@@ -79,8 +79,8 @@ function Navbar() {
             },
         },
         drawerItem: {
-            margin: '2rem auto',
-            borderRadius: '78.8418px',
+            margin: '1rem auto',
+            borderRadius: '70px',
             background: theme.secondary,
             color: theme.primary,
             width: '85%',
@@ -106,16 +106,16 @@ function Navbar() {
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
             width: '50%',
-            fontSize: '1.3rem',
+            fontSize: '1rem',
             fontWeight: 600,
             [t.breakpoints.down('sm')]: {
-                fontSize: '1.125rem',
+                fontSize: '1.2rem',
             },
         },
         drawerIcon: {
-            fontSize: '1.6rem',
+            fontSize: '1.3rem',
             [t.breakpoints.down('sm')]: {
-                fontSize: '1.385rem',
+                fontSize: '1.35rem',
             },
         },
     }));
